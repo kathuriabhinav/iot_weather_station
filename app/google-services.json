@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "139212135795",
+    "firebase_url": "https://weather-monitoring-system-1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "weather-monitoring-system-1",
+    "storage_bucket": "weather-monitoring-system-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139212135795:android:3b2ca7234687cf1ccdf906",
+        "android_client_info": {
+          "package_name": "com.example.iot_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139212135795-8eijhquurp0grtthn5525o439kd3ch3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyDOrrJw2OXKSxvG2vxiUUWaY5JY9mLQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139212135795-8eijhquurp0grtthn5525o439kd3ch3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139212135795:android:9a0ee8d765385cd1cdf906",
+        "android_client_info": {
+          "package_name": "com.example.iotweatherstation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139212135795-8eijhquurp0grtthn5525o439kd3ch3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyDOrrJw2OXKSxvG2vxiUUWaY5JY9mLQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139212135795-8eijhquurp0grtthn5525o439kd3ch3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
