@@ -15,15 +15,15 @@ then go to arduino part and follow its readme
 We can make changes to the sensors to change the readings by the following :
 
 Temperature reading :
-We can change the temperature reading by using a heat source or blowing air onto the weather station. 
+We can change the temperature reading by using a heat source or spraying hot air onto the weather station. 
 
 Humidity reading :
-We can change the humidity reading by spraying or blowing air onto the weather station. 
+We can change the humidity reading by spraying onto the weather station. 
 
 Air pressure reading :
-We can change the air pressure reading by continuously blowing air into the weather station. 
+We can change the air pressure reading by continuously spraying air into the weather station. 
 
 Air Quality reading :
-We can change the air quality reading by spraying or blowing air into the weather station. 
+We can change the air quality reading by spraying onto the weather station. 
 
 --------------------------------------------------------------------------------------------------
