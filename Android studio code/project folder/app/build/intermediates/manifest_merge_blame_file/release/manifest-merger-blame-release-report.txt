@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.iot_project"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <application
+14-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:8:5-41:19
+15        android:allowBackup="true"
+15-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\kathu\.gradle\caches\transforms-3\80675c4f62d47f19c7c90e719f8042f5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:13:9-35
+21        android:theme="@style/Theme.Iot_project" >
+21-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:14:9-49
+22        <activity
+22-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:15:9-17:40
+23            android:name="com.example.iot_project.DisplayActivity"
+23-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:16:13-44
+24            android:exported="false" />
+24-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:17:13-37
+25        <activity
+25-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:18:9-20:40
+26            android:name="com.example.iot_project.SearchManuallyActivity"
+26-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:19:13-51
+27            android:exported="false" />
+27-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:20:13-37
+28        <activity
+28-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:21:9-23:40
+29            android:name="com.example.iot_project.EditFavoritesActivity"
+29-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:22:13-50
+30            android:exported="false" />
+30-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:23:13-37
+31        <activity
+31-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:24:9-27:57
+32            android:name="com.example.iot_project.DashboardActivity"
+32-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:25:13-46
+33            android:exported="false"
+33-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:26:13-37
+34            android:parentActivityName="com.example.iot_project.MainActivity" />
+34-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:27:13-55
+35        <activity
+35-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:28:9-31:58
+36            android:name="com.example.iot_project.RegisterActivity"
+36-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:29:13-45
+37            android:exported="false"
+37-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:30:13-37
+38            android:parentActivityName="com.example.iot_project.MainActivity" />
+38-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:31:13-55
+39        <activity
+39-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:32:9-40:20
+40            android:name="com.example.iot_project.MainActivity"
+40-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:33:13-41
+41            android:exported="true" >
+41-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:34:13-36
+42            <intent-filter>
+42-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:35:13-39:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:36:17-69
+43-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:36:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:38:17-77
+45-->C:\Users\kathu\AndroidStudioProjects\iot_project\app\src\main\AndroidManifest.xml:38:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <service
+49-->[com.google.firebase:firebase-database:20.0.3] C:\Users\kathu\.gradle\caches\transforms-3\7e7cafdc947bad74321d82997d9cc55a\transformed\firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
+50            android:name="com.google.firebase.components.ComponentDiscoveryService"
+50-->[com.google.firebase:firebase-database:20.0.3] C:\Users\kathu\.gradle\caches\transforms-3\7e7cafdc947bad74321d82997d9cc55a\transformed\firebase-database-20.0.3\AndroidManifest.xml:30:13-84
+51            android:directBootAware="true"
+51-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kathu\.gradle\caches\transforms-3\fb3f5d04fc1c801229ba135f61e969f3\transformed\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+52            android:exported="false" >
+52-->[com.google.firebase:firebase-database:20.0.3] C:\Users\kathu\.gradle\caches\transforms-3\7e7cafdc947bad74321d82997d9cc55a\transformed\firebase-database-20.0.3\AndroidManifest.xml:31:13-37
+53            <meta-data
+53-->[com.google.firebase:firebase-database:20.0.3] C:\Users\kathu\.gradle\caches\transforms-3\7e7cafdc947bad74321d82997d9cc55a\transformed\firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+54                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+54-->[com.google.firebase:firebase-database:20.0.3] C:\Users\kathu\.gradle\caches\transforms-3\7e7cafdc947bad74321d82997d9cc55a\transformed\firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-database:20.0.3] C:\Users\kathu\.gradle\caches\transforms-3\7e7cafdc947bad74321d82997d9cc55a\transformed\firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+56        </service>
+57
+58        <provider
+58-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kathu\.gradle\caches\transforms-3\fb3f5d04fc1c801229ba135f61e969f3\transformed\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+59            android:name="com.google.firebase.provider.FirebaseInitProvider"
+59-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kathu\.gradle\caches\transforms-3\fb3f5d04fc1c801229ba135f61e969f3\transformed\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+60            android:authorities="com.example.iot_project.firebaseinitprovider"
+60-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kathu\.gradle\caches\transforms-3\fb3f5d04fc1c801229ba135f61e969f3\transformed\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kathu\.gradle\caches\transforms-3\fb3f5d04fc1c801229ba135f61e969f3\transformed\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+62            android:exported="false"
+62-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kathu\.gradle\caches\transforms-3\fb3f5d04fc1c801229ba135f61e969f3\transformed\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+63            android:initOrder="100" />
+63-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kathu\.gradle\caches\transforms-3\fb3f5d04fc1c801229ba135f61e969f3\transformed\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kathu\.gradle\caches\transforms-3\e50d693da765efce8ccce8cee647b05b\transformed\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kathu\.gradle\caches\transforms-3\e50d693da765efce8ccce8cee647b05b\transformed\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kathu\.gradle\caches\transforms-3\e50d693da765efce8ccce8cee647b05b\transformed\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kathu\.gradle\caches\transforms-3\e50d693da765efce8ccce8cee647b05b\transformed\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kathu\.gradle\caches\transforms-3\401f8f3514acfe2db9439fc2f3352b39\transformed\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kathu\.gradle\caches\transforms-3\401f8f3514acfe2db9439fc2f3352b39\transformed\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kathu\.gradle\caches\transforms-3\401f8f3514acfe2db9439fc2f3352b39\transformed\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kathu\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kathu\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+76            android:authorities="com.example.iot_project.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kathu\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kathu\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kathu\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kathu\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kathu\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kathu\.gradle\caches\transforms-3\8dbae83d3e13ececffdf9dba7d200cf0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kathu\.gradle\caches\transforms-3\8dbae83d3e13ececffdf9dba7d200cf0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kathu\.gradle\caches\transforms-3\8dbae83d3e13ececffdf9dba7d200cf0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>

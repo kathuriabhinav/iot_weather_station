@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">139212135795-8eijhquurp0grtthn5525o439kd3ch3r.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://weather-monitoring-system-1-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">139212135795</string>
+    <string name="google_api_key" translatable="false">AIzaSyDyDOrrJw2OXKSxvG2vxiUUWaY5JY9mLQY</string>
+    <string name="google_app_id" translatable="false">1:139212135795:android:3b2ca7234687cf1ccdf906</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDyDOrrJw2OXKSxvG2vxiUUWaY5JY9mLQY</string>
+    <string name="google_storage_bucket" translatable="false">weather-monitoring-system-1.appspot.com</string>
+    <string name="project_id" translatable="false">weather-monitoring-system-1</string>
+</resources>
