@@ -12,6 +12,7 @@ then go to arduino part and follow its readme
 
 --------------------------------------------------------------------------------------------------
 
+In lab conditions, 
 We can make changes to the sensors to change the readings by the following :
 
 Temperature reading :
