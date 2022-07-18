@@ -1,4 +1,5 @@
 # iot_weather_station
+- Live Weather Monitoring Android Application
 - Application is made using Android studio
 - Used Java for backend
 - Used XML for frontend
