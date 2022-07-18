@@ -17,7 +17,7 @@
 
 # Hardware Used
 - Nodemcu - ESP8266
-- DHTll 
+- DHT11
 - BMP180
 - MQ135
 
