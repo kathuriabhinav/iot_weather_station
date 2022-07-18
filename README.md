@@ -19,3 +19,5 @@
 - DHTll 
 - BMP180
 - MQ135
+
+To Download the application [click here](https://github.com/kathuriabhinav/iot_weather_station/raw/main/Executable.apk)
