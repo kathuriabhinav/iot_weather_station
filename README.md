@@ -13,7 +13,7 @@
 - Edit their personal dashboard by adding or removing weather stations from dashboard.
 
 # It enables weather-stations to 
-- Post live weather data onto firebase.
+- Post live weather data onto firebase using weather station ID
 
 # Hardware Used
 - Nodemcu - ESP8266
